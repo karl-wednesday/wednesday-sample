@@ -1,6 +1,6 @@
 [submodule "build/public"]
 	path = build/public
-	url = git@github.com:WordPress/WordPress.git
+	url = https://github.com/WordPress/WordPress.git
 [submodule "dbv"]
 	path = dbv
-	url = git@github.com:victorstanciu/dbv.git
+	url = https://github.com/victorstanciu/dbv.git
