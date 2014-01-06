@@ -30,7 +30,7 @@ define('DBV_ROOT_PATH', dirname(__FILE__));
  * Only edit this lines if you want to place your schema files in custom locations
  * @see http://dbv.vizuina.com/documentation/#optional-settings
  */
-define('DBV_DATA_PATH', DBV_ROOT_PATH . DS . 'data');
+define('DBV_DATA_PATH', realpath(DBV_ROOT_PATH . DS . '..' . DS . 'sql' . DS . 'data'));
 define('DBV_SCHEMA_PATH', DBV_DATA_PATH . DS . 'schema');
 define('DBV_REVISIONS_PATH', DBV_DATA_PATH . DS . 'revisions');
 define('DBV_META_PATH', DBV_DATA_PATH . DS . 'meta');
