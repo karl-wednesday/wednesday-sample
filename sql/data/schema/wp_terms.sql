@@ -3,6 +3,7 @@ CREATE TABLE `wp_terms` (
   `name` varchar(200) NOT NULL DEFAULT '',
   `slug` varchar(200) NOT NULL DEFAULT '',
   `term_group` bigint(10) NOT NULL DEFAULT '0',
+  `test` int(1) DEFAULT NULL,
   PRIMARY KEY (`term_id`),
   UNIQUE KEY `slug` (`slug`),
   KEY `name` (`name`)
